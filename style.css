@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./bg_img/clear_sky.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: roboto;
+}
+.card{
+    z-index: 100;
+    opacity: 0.75;
+    height: 470px;
+    overflow: hidden;
+    margin-top: 25%;
+    /* position: relative; */
+}
+.card-header{
+    background: white;
+    /* border: 1px solid black; */
+    border: none;
+    padding: 0;
+}
+.card-header input{
+    border: none;
+    border-bottom: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 0;
+    text-align: center;
+    font-size: 1.4rem;
+    transition: 0.2s ease-in-out;
+}
+.card-header input:focus{
+    outline: none !important;
+    border-color: white;
+    box-shadow: 0 0 10px white;
+    background-color: white;
+    font-size: 1.7rem;
+}
+.card-body{
+    margin-top: 30px;
+    color: #582233;
+}
+.card-body .city{
+ font-weight: bold;
+ font-size: 1.3rem;
+ padding: 5px;
+}
+.card-body .date_time{
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+.card-body .temp{
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow:2px 4px rgb(0, 0,0,0.3);
+    padding: 5px;
+}
+.card-body .min_max{
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+.card-body .weather{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* BG _VIDEO */
+
+.myVideo {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transition: 0.2s ease-in-out;
+  }
