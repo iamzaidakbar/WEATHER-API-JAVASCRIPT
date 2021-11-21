@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url(./bg_img/clear_sky.jpg);
+    background: url(clear_sky.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
